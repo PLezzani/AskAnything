@@ -140,7 +140,7 @@ export default function App() {
             >
               <div className="bg-[#07388a] drop-shadow-[0px_0px_0.587px_rgba(0,0,0,0.24),0px_2.348px_2.348px_rgba(0,0,0,0.16),0px_-1.174px_0.587px_rgba(0,0,0,0.08)] px-[23.483px] py-[14.09px] rounded-bl-[28.18px] rounded-br-[28.18px] rounded-tl-[28.18px] max-w-[85%]">
                 <p className="font-['Inter:Regular',sans-serif] font-normal leading-[24.626px] text-[18.47px] text-right text-white">
-                  Show me all VIP players with churn risk above 70%
+                  <TypedText text="Show me all VIP players with churn risk above 70%" />
                 </p>
               </div>
             </motion.div>
